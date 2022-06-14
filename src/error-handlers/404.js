@@ -7,8 +7,7 @@
  * @param {*} next
  */
 
-function notFoundHandler (req, res, next) {
+module.exports = function (req, res, next) {
   res.status(404).send('Not found');
-}
+};
 
-module.exports = { notFoundHandler };
