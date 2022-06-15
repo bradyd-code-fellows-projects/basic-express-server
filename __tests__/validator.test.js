@@ -9,7 +9,7 @@ describe('Validate query function', () => {
     test('500 if no name in the query string', async () => {
       let response = await mockRequest.get('/person'); // come back to this
       expect(response.status).toEqual(500);
-      expect(response.text).toEqual('Please enter a valid query parameter, like this: /hello?name=John');
+      expect(response.text).toEqual('Please enter a valid query parameter, like this: /person?name=John');
     });
   });
 
