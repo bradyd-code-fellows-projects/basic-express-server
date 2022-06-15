@@ -10,4 +10,4 @@ function validateQuery(req, res, next) {
   next();
 }
 
-module.exports = { validateQuery };
+module.exports = validateQuery;
