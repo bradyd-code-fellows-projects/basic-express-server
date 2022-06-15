@@ -1,8 +1,8 @@
 'use strict';
 
-const server = require('../src/server');
+const { app } = require('../src/server');
 const supertest = require('supertest');
-const mockRequest = supertest(server);
+const mockRequest = supertest(app);
 
 describe('Server Tests', () => {
   describe('Error Handler Tests', () => {
