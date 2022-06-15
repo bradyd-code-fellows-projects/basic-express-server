@@ -1,11 +1,10 @@
 'use strict';
 
-module.exports = {
-  greetPerson: (req, res, next) => {
-    let { name } = req.params;
-    let nameObj = {
-      name: name,
-    };
-    res.status(200).json(nameObj);
-  },
+module.exports = function (req, res, next) {
+  let { name } = req.query;
+  let nameObj = {
+    name: name,
+  };
+  res.status(200).send(nameObj);
 };
+
