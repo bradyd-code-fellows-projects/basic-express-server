@@ -15,7 +15,7 @@ Engineering Note - Testing servers without side-effects is crucial. More critica
 
 ### Links and Resources
 
-- [Prod url]()
+- [Prod url](https://bradyd-basic-express-server.herokuapp.com/)
 - [GitHub Repo](https://github.com/bradydavenport/basic-express-server)
 
 ### Setup
